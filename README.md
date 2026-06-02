@@ -1,26 +1,17 @@
 # The Regulars Website
 
-Full complete updated single-page GitHub Pages website.
+Full site ZIP using the original band photos uploaded in the chat.
 
-Upload every file from this ZIP to the root of the GitHub repository.
+Upload all files to the root of the GitHub repository.
 
-Included:
+Files included:
 - index.html
 - hero.jpg
 - band-striped-wall.jpg
-- band-seafront-wide.jpg
 - band-stairs.jpg
+- band-seafront-wide.jpg
 - band-low-angle.jpg
 - band-seafront-close.jpg
 
-Changes included:
-- Removed the “Live covers with proper pub energy” intro section and text below it.
-- Updated the About section wording.
-- Kept “Available for pubs, private parties, weddings, festivals and live music events...”
-- Gig Dates now shows the heading only before the cards.
-- Removed the “Confirmed dates from the latest band calendar” line.
-- Removed Spotify references.
-- Booking form uses Formspree: https://formspree.io/f/mrednzbn
-
-After uploading, open:
-https://aaronk1202.github.io/Regwebsite/?v=3000
+Then open:
+https://aaronk1202.github.io/Regwebsite/?v=4000
