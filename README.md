@@ -1,11 +1,26 @@
 # The Regulars Website
 
-Single-page GitHub Pages website for The Regulars.
+Full complete updated single-page GitHub Pages website.
 
-Upload `index.html` and the `assets` folder to the root of your GitHub repository.
+Upload every file from this ZIP to the root of the GitHub repository.
 
-To publish:
-Settings > Pages > Deploy from branch > main > /root
+Included:
+- index.html
+- hero.jpg
+- band-striped-wall.jpg
+- band-seafront-wide.jpg
+- band-stairs.jpg
+- band-low-angle.jpg
+- band-seafront-close.jpg
 
-Booking form:
-Replace `YOUR-FORM-ID` in index.html with your Formspree form ID.
+Changes included:
+- Removed the “Live covers with proper pub energy” intro section and text below it.
+- Updated the About section wording.
+- Kept “Available for pubs, private parties, weddings, festivals and live music events...”
+- Gig Dates now shows the heading only before the cards.
+- Removed the “Confirmed dates from the latest band calendar” line.
+- Removed Spotify references.
+- Booking form uses Formspree: https://formspree.io/f/mrednzbn
+
+After uploading, open:
+https://aaronk1202.github.io/Regwebsite/?v=3000
