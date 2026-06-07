@@ -1,13 +1,13 @@
-# The Regulars Website - No Meet The Band Photos
+# The Regulars Website - Rethought Layout
 
 Changes:
-- Removed the Meet the Band photo cards.
-- Replaced them with a simple Line-up section showing names and roles.
-- Adjusted mobile hero image so the full band photo is visible.
-- Footer now stops after “Available across Kent”.
-- Kept booking form and social links.
+- Hero image is no longer blocked by the title text on desktop.
+- Mobile hero now shows the full band image first, then text directly underneath.
+- Reworked Line-up section into clean role cards.
+- Footer now says “Available across Kent”.
+- Kept booking form, social links, shows and song sample.
 
 Upload all files to the root of your GitHub repository.
 
 Open:
-https://aaronk1202.github.io/Regwebsite/?v=10000
+https://aaronk1202.github.io/Regwebsite/?v=11000
