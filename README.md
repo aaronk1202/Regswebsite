@@ -1,13 +1,11 @@
-# The Regulars Website - Gap and Gallery Fix
+# The Regulars Website - Gallery and Gigs Fix
 
 Changes:
-- Reduced the large vertical gaps between sections.
-- Kept spacing clean between About / Available and the promo image.
-- Mobile photo gallery now shows full images instead of cropping band members out.
-- Removed repeated Available text from the About box.
-- Footer says “Available across Kent”.
+- Upcoming Shows now starts from 19 June, Market Inn, Faversham.
+- Removed the old May 2, May 3 and June 6 gigs.
+- Gallery images now show the full photo rather than cropping band members out.
 
 Upload all files to the root of your GitHub repository.
 
 Open:
-https://aaronk1202.github.io/Regwebsite/?v=13000
+https://aaronk1202.github.io/Regwebsite/?v=14000
