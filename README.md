@@ -1,11 +1,12 @@
-# The Regulars Website - Gallery and Gigs Fix
+# The Regulars Website - Even Gallery Fix
 
 Changes:
-- Upcoming Shows now starts from 19 June, Market Inn, Faversham.
-- Removed the old May 2, May 3 and June 6 gigs.
-- Gallery images now show the full photo rather than cropping band members out.
+- Gallery photos now sit in equal-size cards.
+- No odd masonry-style gaps.
+- Full images are shown inside each card rather than cropping band members out.
+- Upcoming Shows still starts from 19 June.
 
 Upload all files to the root of your GitHub repository.
 
 Open:
-https://aaronk1202.github.io/Regwebsite/?v=14000
+https://aaronk1202.github.io/Regwebsite/?v=15000
