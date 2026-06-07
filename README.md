@@ -1,12 +1,12 @@
-# The Regulars Website - Tighter Spacing
+# The Regulars Website - Gallery Fixed
 
 Changes:
-- Reduced the large vertical gaps between sections.
-- Kept the previous gallery layout.
-- Kept Upcoming Shows starting from 19 June.
-- No content or image changes.
+- Keeps the tighter section spacing.
+- Restores the desktop photo gallery to the better masonry layout.
+- Keeps mobile photos full-width so members are not cropped out.
+- No gig list or content changes.
 
-Upload all files to the root of your GitHub repository.
+Upload all files to the root of the GitHub repository.
 
 Open:
-https://aaronk1202.github.io/Regwebsite/?v=16000
+https://aaronk1202.github.io/Regwebsite/?v=17000
