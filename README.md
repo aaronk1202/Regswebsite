@@ -1,11 +1,13 @@
-# The Regulars Website - Spacing and Text Fix
+# The Regulars Website - Gap and Gallery Fix
 
 Changes:
-- Removed the repeated “Available for...” sentence from the About box.
-- Added more spacing between the About / Available cards and the promo photo.
-- Kept the clean hero layout and line-up cards.
+- Reduced the large vertical gaps between sections.
+- Kept spacing clean between About / Available and the promo image.
+- Mobile photo gallery now shows full images instead of cropping band members out.
+- Removed repeated Available text from the About box.
+- Footer says “Available across Kent”.
 
 Upload all files to the root of your GitHub repository.
 
 Open:
-https://aaronk1202.github.io/Regwebsite/?v=12000
+https://aaronk1202.github.io/Regwebsite/?v=13000
