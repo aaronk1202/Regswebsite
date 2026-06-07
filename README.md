@@ -1,13 +1,13 @@
-# The Regulars Website - Final Renamed Member Photos
+# The Regulars Website - No Meet The Band Photos
 
-This is the full updated ZIP with the corrected member photo filenames:
+Changes:
+- Removed the Meet the Band photo cards.
+- Replaced them with a simple Line-up section showing names and roles.
+- Adjusted mobile hero image so the full band photo is visible.
+- Footer now stops after “Available across Kent”.
+- Kept booking form and social links.
 
-- aaron.jpg = Aaron Kitchener
-- matt.jpg = Matt Knox
-- adam.jpg = Adam McVey
-- george.jpg = George Axon
+Upload all files to the root of your GitHub repository.
 
-Upload all files to the root of your GitHub repository and replace existing files.
-
-Open after upload:
-https://aaronk1202.github.io/Regwebsite/?v=9000
+Open:
+https://aaronk1202.github.io/Regwebsite/?v=10000
