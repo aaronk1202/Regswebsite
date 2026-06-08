@@ -189,14 +189,46 @@ section{padding-top:34px;padding-bottom:34px}
 }
 
 
-/* Frontman-style logo images */
-.logo-image{display:flex;align-items:center;width:260px;max-width:45vw}
-.logo-image img{width:100%;height:auto}
-.hero-title-image{margin:0;line-height:1}
-.hero-title-image img{width:min(920px,100%);height:auto}
+/* Correct Frontman logo sizing */
+.logo-image{
+  display:flex !important;
+  align-items:center !important;
+  width:220px !important;
+  max-width:42vw !important;
+  height:auto !important;
+  overflow:visible !important;
+}
+.logo-image img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-height:58px !important;
+  object-fit:contain !important;
+}
+.hero-title-image{
+  margin:0 !important;
+  line-height:1 !important;
+  overflow:visible !important;
+}
+.hero-title-image img{
+  display:block !important;
+  width:min(620px, 100%) !important;
+  height:auto !important;
+  max-height:145px !important;
+  object-fit:contain !important;
+}
 @media(max-width:900px){
-  .logo-image{width:220px;max-width:54vw}
-  .hero-title-image img{width:100%}
+  .logo-image{
+    width:190px !important;
+    max-width:52vw !important;
+  }
+  .logo-image img{
+    max-height:50px !important;
+  }
+  .hero-title-image img{
+    width:100% !important;
+    max-height:120px !important;
+  }
 }
 
 </style>
