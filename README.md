@@ -1,9 +1,8 @@
-# The Regulars Website - Corrected Frontman Update
+# The Regulars Website - Logo Cut-Off Fixed
 
 Changes:
-- Header and main THE REGULARS title use the supplied Frontman font as logo images.
-- Fixed logo sizing so it does not crop or become oversized.
-- Replaced the two red-X gallery photos with the supplied black-and-white photos.
-- Kept the existing favicon and current site layout.
+- Regenerated the Frontman logo images with extra padding so the letters are not cut off.
+- Reduced and fixed header/hero logo sizing.
+- Kept the black-and-white photo replacements and favicon.
 
 Upload all files to the root of your GitHub repository.
