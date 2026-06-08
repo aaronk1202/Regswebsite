@@ -230,6 +230,61 @@ section{padding-top:34px;padding-bottom:34px}
   }
 }
 
+
+/* Final logo fit fix */
+.nav{
+  gap:24px !important;
+}
+.logo-image{
+  flex:0 0 auto !important;
+  width:320px !important;
+  max-width:32vw !important;
+  min-width:0 !important;
+  height:auto !important;
+  overflow:visible !important;
+}
+.logo-image img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-width:100% !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+}
+.hero-title-image{
+  width:650px !important;
+  max-width:calc(100vw - 64px) !important;
+  height:auto !important;
+  overflow:visible !important;
+  margin:0 !important;
+  line-height:1 !important;
+}
+.hero-title-image img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  max-height:none !important;
+  object-fit:contain !important;
+  object-position:left center !important;
+}
+@media(max-width:900px){
+  .logo-image{
+    width:230px !important;
+    max-width:54vw !important;
+  }
+  .hero-title-image{
+    width:100% !important;
+    max-width:100% !important;
+  }
+}
+@media(max-width:520px){
+  .logo-image{
+    width:190px !important;
+    max-width:52vw !important;
+  }
+}
+
 </style>
 </head>
 <body>
