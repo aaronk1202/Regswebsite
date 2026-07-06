@@ -285,6 +285,32 @@ section{padding-top:34px;padding-bottom:34px}
   }
 }
 
+
+/* Highlight special outdoor daytime gig */
+.featured-gig{
+  border-color:rgba(237,29,36,.55) !important;
+  box-shadow:0 0 0 1px rgba(237,29,36,.22), 0 18px 40px rgba(237,29,36,.08) !important;
+}
+.featured-gig h3::after{
+  content:"Outdoor daytime gig";
+  display:inline-block;
+  margin-left:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:rgba(237,29,36,.18);
+  border:1px solid rgba(237,29,36,.38);
+  color:#fff4df;
+  font-size:14px;
+  vertical-align:middle;
+}
+@media(max-width:700px){
+  .featured-gig h3::after{
+    display:block;
+    width:max-content;
+    margin:10px 0 0;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -372,6 +398,17 @@ section{padding-top:34px;padding-bottom:34px}
   <div class="wrap">
     <h2>Upcoming shows</h2>
     <div class="gigs">
+      <article class="gig-card featured-gig">
+        <div class="date-badge">
+          <span>AUG</span>
+          <strong>30</strong>
+        </div>
+        <div>
+          <h3>The Bridge Arms</h3>
+          <p>Sunday daytime outdoor gig · starts 4.30pm</p>
+        </div>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=The+Bridge+Arms" target="_blank" rel="noopener">Map</a>
+      </article>
       <article class="gig"><div class="date">Jun<span>19</span></div><div><h3>Market Inn</h3><p>Faversham</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+Inn+Faversham">Map</a></article>
 <article class="gig"><div class="date">Jul<span>3</span></div><div><h3>Quayside</h3><p>Whitstable</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Quayside+Whitstable">Map</a></article>
 <article class="gig"><div class="date">Jul<span>25</span></div><div><h3>The Market Inn</h3><p>Sandwich</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Market+Inn+Sandwich">Map</a></article>
