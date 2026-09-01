@@ -59,6 +59,13 @@ section{padding:34px 0}
 .gig p{margin:0;color:var(--muted);font-size:18px}
 .map-button{border:1px solid var(--line);border-radius:999px;padding:12px 16px;font-weight:900;white-space:nowrap}
 
+/* Year filter for upcoming shows */
+.year-filter{display:flex;gap:10px;margin-top:20px;margin-bottom:22px}
+.year-filter button{appearance:none;border:1px solid var(--line);background:var(--soft);color:var(--cream);border-radius:999px;padding:10px 22px;font:inherit;font-weight:900;cursor:pointer}
+.year-filter button.active{background:var(--red);color:#fff;border-color:rgba(255,255,255,.22)}
+.gig[data-year]{display:grid}
+@media(max-width:560px){.year-filter{margin-top:16px;margin-bottom:18px}.year-filter button{flex:1;padding:10px 16px}}
+
 .gallery{display:grid;grid-template-columns:1.25fr .9fr .9fr;gap:16px;margin-top:22px}
 .gallery img{
   width:100%;
@@ -346,11 +353,29 @@ section{padding-top:34px;padding-bottom:34px}
 <section id="songs">
   <div class="wrap">
     <h2>What we play</h2>
-    
+    <p class="lead">A mix of Britpop, indie rock, rock classics and songs to dance to.</p>
     <div class="card" style="margin-top:34px">
       <p>The Regulars play a mix of Britpop, indie rock, rock classics and songs to dance to, covering songs by artists such as Oasis, Foo Fighters, Kings of Leon, The Killers, Sam Fender, Fleetwood Mac, Pulp, Kaiser Chiefs, The Stone Roses and Bryan Adams.</p>
       <p>Our set combines known favourites with songs that aren't found in every covers band's setlist, giving people the chance to sing and dance along to tracks they may not get to hear live.</p>
       <p>For special events, we can also learn specific songs by agreement at the time of booking.</p>
+        <li>Fly Away</li>
+        <li>Good Enough</li>
+        <li>Jerk It Out</li>
+        <li>Molly's Chambers</li>
+        <li>Run To You</li>
+        <li>Seventeen Going Under</li>
+        <li>Times Like These</li>
+        <li>Supersonic</li>
+        <li>Seven Nation Army</li>
+        <li>Go Your Own Way</li>
+        <li>Use Somebody</li>
+        <li>When We Were Young</li>
+        <li>Yellow</li>
+        <li>I Wanna Be Adored</li>
+        <li>Cigarettes & Alcohol</li>
+        <li>I Predict a Riot</li>
+        <li>Disco 2000</li>
+        <li>Live Forever</li>
       </ul>
     </div>
   </div>
@@ -371,13 +396,24 @@ section{padding-top:34px;padding-bottom:34px}
 <section id="shows">
   <div class="wrap">
     <h2>Upcoming shows</h2>
+    <div class="year-filter" role="group" aria-label="Select gig year">
+      <button type="button" class="active" data-year-filter="2026" aria-pressed="true">2026</button>
+      <button type="button" data-year-filter="2027" aria-pressed="false">2027</button>
+    </div>
     <div class="gigs">
-   
-<article class="gig"><div class="date">Sep<span>26</span></div><div><h3>Pier Ceylon</h3><p>Herne Bay</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pier+Ceylon+Herne+Bay">Map</a></article>
-<article class="gig"><div class="date">Oct<span>2</span></div><div><h3>Market House</h3><p>Maidstone</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+House+Maidstone">Map</a></article>
-<article class="gig"><div class="date">Oct<span>24</span></div><div><h3>The Market Inn</h3><p>Sandwich</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Market+Inn+Sandwich">Map</a></article>
-<article class="gig"><div class="date">Dec<span>11</span></div><div><h3>Invicta Bar</h3><p>Gravesend</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Invicta+Bar+Gravesend">Map</a></article>
-<article class="gig"><div class="date">Dec<span>24</span></div><div><h3>Pier Ceylon</h3><p>Herne Bay</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pier+Ceylon+Herne+Bay">Map</a></article>
+      <!-- 2026 -->
+      <article class="gig" data-year="2026"><div class="date">Sep<span>26</span></div><div><h3>Pier Ceylon</h3><p>Herne Bay</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pier+Ceylon+Herne+Bay">Map</a></article>
+      <article class="gig" data-year="2026"><div class="date">Oct<span>2</span></div><div><h3>Market House</h3><p>Maidstone</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+House+Maidstone">Map</a></article>
+      <article class="gig" data-year="2026"><div class="date">Oct<span>24</span></div><div><h3>The Market Inn</h3><p>Sandwich</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=The+Market+Inn+Sandwich">Map</a></article>
+      <article class="gig" data-year="2026"><div class="date">Dec<span>11</span></div><div><h3>Invicta Bar</h3><p>Gravesend</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Invicta+Bar+Gravesend">Map</a></article>
+      <article class="gig" data-year="2026"><div class="date">Dec<span>24</span></div><div><h3>Pier Ceylon</h3><p>Herne Bay</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Pier+Ceylon+Herne+Bay">Map</a></article>
+
+      <!-- 2027 -->
+      <article class="gig" data-year="2027"><div class="date">Jan<span>16</span></div><div><h3>Quayside Bar &amp; Kitchen</h3><p>Whitstable</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Quayside+Bar+%26+Kitchen+Whitstable">Map</a></article>
+      <article class="gig" data-year="2027"><div class="date">Jan<span>23</span></div><div><h3>Market House</h3><p>Maidstone</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+House+Maidstone">Map</a></article>
+      <article class="gig" data-year="2027"><div class="date">Jul<span>30</span></div><div><h3>Market House</h3><p>Maidstone</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+House+Maidstone">Map</a></article>
+      <article class="gig" data-year="2027"><div class="date">Aug<span>14</span></div><div><h3>Quayside Bar &amp; Kitchen</h3><p>Whitstable</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Quayside+Bar+%26+Kitchen+Whitstable">Map</a></article>
+      <article class="gig" data-year="2027"><div class="date">Nov<span>19</span></div><div><h3>Market House</h3><p>Maidstone</p></div><a class="map-button" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Market+House+Maidstone">Map</a></article>
     </div>
   </div>
 </section>
@@ -449,5 +485,22 @@ section{padding-top:34px;padding-bottom:34px}
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  const buttons = document.querySelectorAll('[data-year-filter]');
+  const gigs = document.querySelectorAll('.gig[data-year]');
+  function showYear(year){
+    gigs.forEach(gig => { gig.style.display = gig.dataset.year === year ? '' : 'none'; });
+    buttons.forEach(button => {
+      const active = button.dataset.yearFilter === year;
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+  }
+  buttons.forEach(button => button.addEventListener('click', () => showYear(button.dataset.yearFilter)));
+  showYear('2026');
+})();
+</script>
 </body>
 </html>
